@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
 
+<body>
+
+<div id="container">
+<h1 id="title">Student Survey form</h1>
+<p id="descriptoin">Thank you for taking the time in answering our survey form. It is deeply appreciated</p>
+<form id="survey-form">
+  <label id="name-label">Name<br> 
+    <input id="name" type="text" placeholder="Name" required>
+  </label>
+  <label id="email-label"><br>Email<br>
+    <input id="email" type="email" required placeholder="Email">
+  </label>
+  <label id="number-label"><br>Age<br> 
+    <input id="number" type="number" min="18" max="65" placeholder="Number">
+  </label>
+  <label id="select-label"><br>Prefer mode of study<br> 
+    <select id="dropdown">
+      <option>Online</option>
+      <option>Face to face</option>
+      <option>Blend</option>
+    </select>
+  </label>
+  <label id="radio-label"><br>Often use device<br>
+    <input type="radio" name="name" id="rad1">
+    <label for="rad1">Smart phone<br></label>
+    <input type="radio" name="name" id="rad2">
+    <label for="rad2">Personal computer<br></label>
+    <input type="radio" name="name" id="rad3">
+    <label for="rad3">Book</label>
+  </label>
+  <label id="checkbox-label"><br>Transportation<br>
+    <input type="checkbox" name="value" id="check1">
+    <label for="check1">Bus/Cab<br>
+    </label>
+    <input type="checkbox" name="value" id="check2">
+    <label for="check2">Car<br>
+    </label>
+    <input type="checkbox" name="value" id="check3">
+    <label for="check3">Motor
+    </label>
+  </label>
+  <label id="textarea-label"><br>Comment or suggestion<br><textarea ></textarea>
+  </label><br>
+  <input type="submit">
+</form>
+</div>
+
+</body>
+</html>
