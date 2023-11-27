@@ -1,1 +1,42 @@
-
+body {
+    background-color: beige;
+    font-family: sans-serif;
+}
+#container{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: justify;
+    width: 400px;
+    height: 600px;
+}
+#title {
+    font-size: 34px;
+    text-align: center;
+    font-weight: bolder;
+}
+#description {
+    font-size: 14px;
+    font-weight: bold;
+}
+#survey-form {
+    background-color: #acadae5f;
+    padding: 10px;
+    border-radius: 10px;
+}
+#name {
+    margin: auto;
+    width: 350px;
+    align-items: center;
+}
+#email {
+    margin: auto;
+    width: 350px;
+    align-items: center;
+}
+#number {
+    margin: auto;
+    width: 350px;
+    align-items: center;
+}
